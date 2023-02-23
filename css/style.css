@@ -1,0 +1,227 @@
+/* inicio body */
+* {
+  font-family: barlow, sans-serif; }
+
+body {
+  background: #fff0f5 url(https://t4.ftcdn.net/jpg/02/22/17/97/360_F_222179720_h4HaoaN4ZSASTZ63GEZFLTzVnj9aElCl.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  padding: 0; }
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #ffcdd2 !important;
+      background-image: none; } }
+
+/* cierre body */
+/* inicio navbar y logo */
+.container-fluid .nav-item {
+  margin: 20px;
+  padding: 0px;
+  justify-self: center;
+  align-self: center; }
+  .container-fluid .nav-item .nav-link {
+    color: rebeccapurple;
+    font-size: 18px;
+    font-weight: 900; }
+
+.container-fluid .navbar-brand .logoppal {
+  height: 80px;
+  border-radius: 5px;
+  box-sizing: border-box; }
+
+.container-fluid .navbar-toggler {
+  color: rebeccapurple; }
+
+/* cierre navbar y logo */
+/* inicio titulos y parrafo */
+.titulos {
+  display: flex;
+  margin: auto;
+  justify-content: left; }
+  @media screen and (max-width: 768px) {
+    .titulos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }
+
+.titulo-h1 {
+  display: flex;
+  font-size: 55px;
+  padding: 10px;
+  margin: 0;
+  color: purple; }
+  @media screen and (max-width: 768px) {
+    .titulo-h1 {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 5px;
+      font-size: 40px; } }
+
+.titulo-h2 {
+  display: flex;
+  color: purple;
+  align-items: center;
+  padding: 10px;
+  margin: 0px; }
+  @media screen and (max-width: 768px) {
+    .titulo-h2 {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 5px;
+      font-size: 30px;
+      margin: 0px; } }
+
+.subtitulo1 {
+  text-align: left;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px 0px 0px 0px; }
+  @media screen and (max-width: 768px) {
+    .subtitulo1 {
+      text-align: center;
+      margin-top: 30px; } }
+
+p {
+  width: 750px;
+  text-align: left;
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 0px; }
+  @media screen and (max-width: 768px) {
+    p {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 5px;
+      margin: 20px 0px 0px 0px;
+      font-size: 18px;
+      font-weight: 500; } }
+
+/* cierre titulos y parrafo */
+/* inicio footer */
+.footer {
+  width: 100%;
+  margin-top: 20px;
+  background-color: white;
+  opacity: 60%;
+  padding: 7px; }
+  .footer a {
+    margin: 0px 5x;
+    line-height: 25px; }
+  @media screen and (max-width: 768px) {
+    .footer {
+      width: 100%; } }
+
+/* cierre footer*/
+/* inicio index */
+@media screen and (min-width: 769px) {
+  #carouselExampleIndicators {
+    display: none; }
+  .images-desktop .imgindex {
+    display: inline-block;
+    width: 290px;
+    height: 290px;
+    padding: 10px;
+    margin: 10px;
+    object-fit: cover;
+    transition: width 2s, height 2s; }
+  .images-desktop .imgindex:hover {
+    width: 350px;
+    height: 350px; } }
+
+@media screen and (max-width: 768px) {
+  .images-desktop {
+    display: none; }
+  .infoindex {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    align-content: center; } }
+
+/* cierre index */
+/* inicio cards tortas y cupcakes */
+.row {
+  margin: 10px; }
+  .row .card-body {
+    text-align: center; }
+  .row p {
+    width: auto; }
+  .row .btn {
+    background-color: rebeccapurple; }
+
+/* fin cards tortas y cupcakes */
+/* inicio recetas */
+.recetas {
+  display: grid;
+  grid-template-columns: 700px;
+  grid-template-rows: repeat 5, 350px;
+  grid-row-gap: 10px;
+  padding: 15px; }
+  .recetas .videos iframe {
+    width: 50vw; }
+
+@media screen and (max-width: 768px) {
+  .recetas {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+    .recetas .videos {
+      width: 95%;
+      height: auto; }
+      .recetas .videos iframe {
+        width: 90vw;
+        height: auto; } }
+
+/* cierre recetas */
+/* inicio contacto */
+.lista_contacto {
+  list-style: none;
+  margin-left: 20px;
+  padding: 0px; }
+  .lista_contacto .datos_contacto {
+    color: rebeccapurple;
+    font-size: large;
+    font-weight: 700; }
+
+#formInput {
+  margin-left: 10px;
+  width: 60%; }
+
+.form-label {
+  margin-left: 10px;
+  font-weight: 300; }
+
+.buttons {
+  margin-left: 10px; }
+  .buttons .btn btn-primary {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 4px 10px;
+    cursor: pointer; }
+
+@media screen and (max-width: 768px) {
+  .lista_c {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 20px 20px;
+    justify-content: center; }
+    .lista_c .datos_contacto {
+      justify-content: center; }
+  .formulario {
+    margin-top: 70px; } }
+
+/* cierre contacto */
+
+

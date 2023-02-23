@@ -1,0 +1,29 @@
+@mixin displayindex {
+	display: inline-block;
+	width: 290px;
+	height: 290px;
+	padding: 10px;
+	margin: 10px;
+}
+
+@mixin displaytitulos {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}
+
+@mixin displayproductos {
+	display: inline-block;
+	width: 100%;
+}
+
+@mixin contactform {
+	display:block;
+	width: 40%;
+	padding: 6px 10px;
+	margin: 8px 10px;
+	box-sizing: border-box;
+	border:none;
+	border-radius: 4px;
+}
